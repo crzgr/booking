@@ -1,0 +1,604 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta content="width=device-width" name="viewport">
+
+ 
+<title>Booking Test</title>
+<style type="text/css" media="screen">
+  
+html {
+ height: 100%;
+ width: 100%;
+ margin: 0;
+ padding: 0;
+}
+body {
+ -webkit-text-size-adjust: none;
+ -ms-text-size-adjust: none;
+ -webkit-font-smoothing: antialiased;
+ margin: 0 !important;
+ padding: 0 !important;
+ width: auto !important;
+}
+.full-width-img div, .full-width-img button {
+ display: block !important;
+}
+table {
+ border-collapse: collapse;
+ mso-table-lspace: 0pt;
+ mso-table-rspace: 0pt;
+}
+table td {
+ border-collapse: collapse;
+ border: 0;
+}
+img {
+ line-height: 100%;
+ outline: none;
+ text-decoration: none;
+ border: 0px !important;
+}
+.button a {
+ text-decoration: none;
+}
+.footer a {
+ color: #8f8f8f;
+ text-decoration: none;
+}
+.btn-2 {
+    width: 148px;
+}
+.search-box {
+    display: none;
+
+}
+.grab-deal-btn-2 {
+    display: none;
+}
+
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+
+*, *::before, *::after {
+ box-sizing: border-box;
+}
+body {
+ width: auto !important;
+}
+.full-width {
+ width: 100% !important;
+ max-width: 100% !important;
+ min-width: 100% !important;
+}
+.content-wrapper {
+ width: 100% !important;
+ min-width: 320px !important;
+ margin: 0 auto;
+}
+.content-wrapper-small {
+ width: 88% !important;
+ margin: 0 auto;
+}
+.full-width-img img {
+ width: 100% !important;
+ height: auto !important;
+ display: block !important;
+}
+.column, .column-spacer, .column-spacer-small {
+ display: block !important;
+ width: 100% !important;
+ height: auto !important;
+}
+.column-spacer {
+ height: 30px !important;
+}
+.column-spacer-small {
+ height: 20px !important;
+}
+.big-title {
+ font-size: 27px !important;
+ line-height: 30px !important;
+}
+.title {
+ font-size: 14px !important;
+ line-height: 20px !important;
+}
+.content {
+ font-size: 16px !important;
+ line-height: 22px !important;
+}
+.center {
+ text-align: center !important;
+}
+.center table {
+ margin: 0 auto !important;
+}
+.height-mobile-small {
+ height: 20px !important;
+}
+.height-mobile {
+ height: 30px !important;
+}
+/* hide/show */
+.mobile-hide {
+ display: none !important;
+}
+.button {
+ font-size: 16px !important;
+}
+.header-mobile {
+    text-align: center;
+}
+.btn-1 {
+    width: 330px !important;
+}
+.btn-2 {
+    margin: 0px auto !important;
+    width: 330px;
+    text-align: center;   
+}
+.column-img {
+    width: 330px;
+}
+.text-1 {
+    text-align: center !important;
+    width: 240px !important;
+}
+.text-2 {
+    text-align: center !important;
+    padding-top: 10px;
+}
+.grab-deal-btn {
+    margin: 0 auto !important;
+    width: 279px !important;
+}
+.grab-deal-btn2 {
+    padding-left: 94px !important;
+}
+.orange-box {
+    width: 327px !important;
+}
+.search-box {
+    display: block !important;
+}
+}
+
+
+
+</style>
+</head>
+
+<body style="margin: 0px; padding: 0px;">
+
+
+
+  <!--HEADER START-->
+ <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%; " class="stylingblock-content-wrapper"><tbody><tr><td class="stylingblock-content-wrapper camarker-inner"><table align="center" bgcolor="#003580" border="0" cellpadding="0" cellspacing="0" width="100%">
+   <tbody><tr>
+      <td align="center">
+         <table align="center" border="0" cellpadding="0" cellspacing="0" class="full-width" width="640">
+            <tbody><tr>
+               <td align="center" class="full-width" style="width:100%; max-width:640px; min-width:300px;">
+                  <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-wrapper" width="640">
+                     <tbody><tr>
+                        <td align="center" style="padding:12px 0;">
+                            <div style="display: none; max-height: 0px; overflow: hidden;">
+   
+                                </div>
+                           <table align="center" border="0" cellpadding="0" cellspacing="0" class="content-wrapper-small" width="624">
+                              <tbody><tr>
+                                 <td align="left" class="header-mobile" style="font-family: 'SP Pro Text', Arial, sans-serif; font-size:26px; line-height:34px; color:#ffffff; font-style:normal">
+                                    <a href="#" target="_blank" style="color:#ffffff;text-decoration: none;">
+                                    Booking.com
+                                </a>
+                                 </td>
+                                 <td align="right" class="mobile-hide footer center" style="font-family: 'Gotham Book', Arial, sans-serif; font-size:12px; line-height:16px; color:#8f8e8e;width: 28px;float: right;">
+                                    <img class="full-width-img" src="https://cdn.discordapp.com/attachments/1016644352950419506/1016738807132999850/Object.png" width="28" height="28" alt="" border="0">
+                                    
+                                 </td>
+                              <td align="right" class="mobile-hide footer center" style="font-family: 'Gotham Book', Arial, sans-serif; font-size:12px; line-height:16px; color:#8f8e8e;width:105px;">
+                                    
+                                    <a href="#" target="_blank" style="font-family: 'SP Pro Text', Arial, sans-serif; font-size:18px; line-height:24px; color:#ffffff; font-style:normal;text-decoration: none;" > John Perez</a>
+                                 </td></tr>
+                           </tbody></table>
+                        </td>
+                     </tr>
+                  </tbody></table>
+               </td>
+            </tr>
+         
+ </tbody></table>
+      </td>
+   </tr>
+</tbody></table>
+
+</td></tr></tbody></table>
+  <!--HEADER END -->
+
+
+  <!-- EMAIL START -->
+  <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+      <tbody>
+          <tr>
+              <td align="center">
+                  <table width="640" border="0" cellspacing="0" cellpadding="0" class="full-width" align="center">
+                      <tbody>
+                          <tr>
+                              <td class="full-width" style="width:640px; max-width:640px; background-color:#ffffff;" align="center">
+                                    <!-- ALL COMPONENTS START -->
+
+
+                                     <!-- BODY CONTENTS START -->
+             <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper" align="center">
+                               
+
+                               <tbody>
+                                 <tr>
+                                   <td align="center" class="content-wrapper">
+
+                                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center">
+                                        <tbody>
+                                             <tr>
+                                                <td height="22" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                            </tr>
+                                          <tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:24px; line-height:32px; color:#262626;font-style:normal;font-weight:700;">Reunite and refresh this summer</td>
+                                          </tr>
+                                          <tr>
+                                                <td height="22" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                            <td valign="top" class="full-width-img" align="center">
+                                                <a href="#" target="_blank">
+                                                <img src="https://cdn.discordapp.com/attachments/1016644352950419506/1016644395799429151/hero_img.png" width="624" border="0" style="width: 100%; max-width: 624px; display: block;"></a>
+                                            </td>
+                                        </tr>
+                                           <tr>
+                                                <td height="22" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                            </tr>
+                                             <tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:16px; line-height:24px; color:#333333;font-style:normal;font-weight:400;">You’ve waited long enough for summer. Choose stays with infinity pools or amazing views to soak up the sunshine. And remember, stay flexible with free cancellation on many of our properties.</td>
+                                          </tr>
+                                          <tr>
+                                                <td height="22" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td align="left">
+                                                    <!-- BUTTON START -->
+                                                    <table border="0" cellspacing="0" cellpadding="0" >
+                                                        <tbody><tr>
+                                                            <td align="center" style="margin: 0;border-radius: 2px;" width="246" bgcolor="#0071C2">
+                                                                <a class="button btn-1" href="#" target="_blank" style="font-size: 16px; line-height: 24px; font-family: SF Pro Text, Arial, sans-serif; color: #ffffff; font-weight: 500; text-decoration: none; padding: 12px 24px; border: 2px solid #0071C2;border-radius: 2px;border-collapse: separate; display: inline-block;">Plan your summer holiday</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <!-- BUTTON END -->
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                              <td height="49">&nbsp;</td>
+                                          </tr><tr>
+                                              <td style="font-size:1px; line-height:1px;color:#E7E7E7;" height="1"><hr></td>
+                                          </tr><tr>
+                                              <td height="32">&nbsp;</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Display ,Arial, sans-serif; font-size:20px; line-height:28px; color:#000000;font-style:normal;font-weight:700;">Find a destination nearby</td>
+                                          </tr><tr>
+                                              <td height="24">&nbsp;</td>
+                                          </tr></tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                   <!-- BODY CONTENTS END -->
+
+                <!-- 2 COLUMNS CONTENT START -->
+   <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper" align="center">
+                               
+
+                               <tbody>
+                                 <tr>
+                                   <td align="center" class="content-wrapper">
+
+                                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center" b="">
+                                        <tbody>
+                                             
+                                                   <tr>
+                    <td class="column" width="300" align="left" valign="top"> 
+                                                <!-- IMAGE LEFT -->  
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                        <td align="left" style="font-size: 1px">
+                                                            <a target="_blank" href="#">
+                                                                <img class="full-width-img column-img" src="https://cdn.discordapp.com/attachments/1016644352950419506/1016644396076257310/img_1.png" width="300" alt="" border="0">
+                                                            </a>
+                                                        </td>
+                                                    </tr><tr>
+                                              <td height="24">&nbsp;</td>
+                                          </tr><tr>
+                                                                    <td align="left" style="color: #000000; font-family: SF Pro Text, Arial, sans-serif; font-size: 20px; line-height: 22px; font-weight: 700;">Amsterdam</td>
+                                                                </tr><tr>
+                                                                    <td align="left" style="color: #000000; font-family: SF Pro Text, Arial, sans-serif; font-size: 14px; line-height: 20px; font-weight: 400;padding-top: 8px;">Netherlands</td>
+                                                                </tr><tr>
+                                                                    <td align="left" style="font-size: 16px;line-height:20px;width:61px;padding-top: 8px;"><img class="full-width-img" src="https://cdn.discordapp.com/attachments/1016644352950419506/1016664865173155851/genius_logo_blue.png" width="61" height="24" alt="" border="0">
+                                                         <span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: 700;color:#171717;vertical-align:super ;">13 options</span></td>
+                                                               </tr> <tr>
+                                                                    <td align="left" style="width:61px;">
+                                                         <span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 14px; line-height: 20px; font-weight: 400;color:#171717;">from </span><span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 700;color:#171717;">€ 39.50</span></td>
+                                                               </tr><tr>
+                                              <td height="24">&nbsp;</td>
+                                          </tr><tr>
+                                                <td align="left">
+                                                    <!-- BUTTON START -->
+                                                    <table border="0" cellspacing="0" cellpadding="0" align="left">
+                                                        <tbody><tr>
+                                                            <td align="center" style="margin: 0;" bgcolor="#ffffff">
+                                                                <a class="button btn-2" href="#" target="_blank" style="font-size: 16px;line-height: 19.09px;font-family: SF Pro Text, Arial, sans-serif;color: #0C74E4;font-weight: 500;text-decoration: none;padding: 12px 24px;border: 1.5px solid #0C74E4;border-radius:4px;display: inline-block;">Show me more</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <!-- BUTTON END -->
+                                                </td>
+                                            </tr>
+                                                </tbody></table>
+                                                
+                                            </td><td class="column" width="24" align="left" valign="top"> 
+                                                
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                                    <td align="left" style="color: #000000; font-family: 'Gotham Bold', Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; text-transform: uppercase;">&nbsp;</td>
+                                                                </tr>
+                                                </tbody></table>
+                                               
+                                            </td>
+                <td class="column" width="300" align="left" valign="top"> 
+                                                 
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                        <td align="left" style="font-size: 1px">
+                                                            <a target="_blank" href="#">
+                                                                <img class="full-width-img column-img" src="https://cdn.discordapp.com/attachments/1016644352950419506/1016644396411785257/img_2.png" width="300" alt="" border="0">
+                                                            </a>
+                                                        </td>
+                                                    </tr><tr>
+                                              <td height="24">&nbsp;</td>
+                                          </tr><tr>
+                                                                    <td align="left" style="color: #000000; font-family: SF Pro Text, Arial, sans-serif; font-size: 20px; line-height: 22px; font-weight: 700;">Zaandam</td>
+                                                                </tr><tr>
+                                                                    <td align="left" style="color: #000000; font-family: SF Pro Text, Arial, sans-serif; font-size: 14px; line-height: 20px; font-weight: 400;padding-top: 8px;">Netherlands</td>
+                                                                </tr><tr>
+                                                                    <td align="left" style="font-size: 16px;line-height:20px;width:61px;padding-top: 8px;"><img class="full-width-img" src="https://cdn.discordapp.com/attachments/1016644352950419506/1016664865173155851/genius_logo_blue.png" width="61" height="24" alt="" border="0">
+                                                         <span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: 700;color:#171717;vertical-align: super;">9 options</span></td>
+                                                               </tr> <tr>
+                                                                    <td align="left" style="width:61px;">
+                                                         <span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 14px; line-height: 20px; font-weight: 400;color:#171717;">from </span><span style="font-family: SF Pro Text, Arial, sans-serif; font-size: 20px; line-height: 28px; font-weight: 700;color:#171717;">€ 59.50</span></td>
+                                                               </tr><tr>
+                                              <td height="24">&nbsp;</td>
+                                          </tr>
+                                          <tr>
+                                                <td align="left">
+                                                    <!-- BUTTON START -->
+                                                    <table border="0" cellspacing="0" cellpadding="0" align="left">
+                                                        <tbody><tr>
+                                                            <td align="center" style="margin: 0;" bgcolor="#ffffff">
+                                                                <a class="button btn-2" href="#" target="_blank" style="font-size: 16px;line-height: 19.09px;font-family: SF Pro Text, Arial, sans-serif;color: #0C74E4;font-weight: 500;text-decoration: none;padding: 12px 24px;border: 1.5px solid #0C74E4;border-radius:4px;display: inline-block;">Show me more</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <!-- BUTTON END -->
+                                                </td>
+                                            </tr>
+                                                </tbody></table>
+                                               
+                                            </td></tr></tbody>
+                                    </table>
+                                </td>
+                            </tr><tr>
+                                              <td height="64">&nbsp;</td>
+                                          </tr>
+                        </tbody>
+                    </table>
+
+                    
+                   <!-- 2 COLUMNS CONTENT END -->
+
+                   <!-- GRAB A DEAL START -->
+
+               <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper" align="center">
+                               
+
+                               <tbody>
+                                 <tr>
+                                   <td align="center" class="content-wrapper">
+
+                                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center">
+                                        <tbody>
+                                 <tr>
+                                   <td align="center" class="content-wrapper">
+
+                                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small orange-box" align="center" bgcolor="#ffffff" style="border: 2px solid #FF8000;border-radius: 8px !important;border-collapse: separate;">
+                                        <tbody>
+                                             
+                                                   <tr>
+                    <td class="column" width="24" align="left" valign="top"> 
+                                                  
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                                    <td align="left" style="color: #000000; font-family: 'Gotham Bold', Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; text-transform: uppercase;">&nbsp;</td>
+                                                                </tr>
+                                                </tbody></table>
+                                                
+                                            </td>
+                <td class="column" width="350" align="left" valign="top"> 
+                                                
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                              <td class="mobile-hide" height="24">&nbsp;</td>
+                                          </tr><tr>
+                                                                    <td align="left" class="text-1" style="color: #000000;font-family: SF Pro Text, Arial, sans-serif;font-size: 20px;line-height: 28px;font-weight: 700;" >Get 20% off with Getaway Deals</td>
+                                                                </tr> <tr>
+                                                                    <td align="left" class="text-2" style="color: #000000;font-family: SF Pro Text, Arial, sans-serif;font-size: 16px;line-height: 24px;font-weight: 400;">Save when you’re ready to travel.</td>
+                                                                </tr><tr>
+                                              <td class="mobile-hide" height="24">&nbsp;</td>
+                                          </tr>
+                                                </tbody></table>
+                                               
+                                            </td><td class="column" width="24" align="left" valign="top"> 
+                                                
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                                    <td align="left" style="color: #000000; font-family: 'Gotham Bold', Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; text-transform: uppercase;">&nbsp;</td>
+                                                                </tr>
+                                                </tbody></table>
+                                               
+                                            </td><td class="column" width="250" align="left" valign="top"> 
+                                                
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                              <td class="mobile-hide" height="24">&nbsp;</td>
+                                          </tr>
+
+                                          <tr>
+                                                <td align="right">
+                                                    <!-- BUTTON -->
+                                                    <table border="0" class="grab-deal-btn" cellspacing="0" cellpadding="0">
+                                                        <tbody><tr>
+                                                            <td align="right" style="margin: 0;border-radius: 2px;" bgcolor="#0071C2">
+                                                                <a class="button button2 grab-deal-btn2" href="#" target="_blank" style="font-size: 16px;line-height: 24px;font-family: SF Pro Text, Arial, sans-serif;color: #ffffff;font-weight: 500;text-decoration: none;padding: 12px 24px;border: 2px solid #0071C2;border-radius: 2px;display: flex;padding-right:20px">Grab a deal</a>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                    <!-- BUTTON -->
+                                                </td>
+                                            </tr>
+
+                                            <tr>
+                                              <td class="mobile-hide" height="24">&nbsp;</td>
+                                          </tr>
+                                          
+                                                </tbody></table>
+                                               
+                                            </td><td class="column" width="24" align="left" valign="top"> 
+                                                
+                                                <table cellpadding="0" cellspacing="0" width="100%" border="0">
+                                                    <tbody><tr>
+                                                                    <td align="left" style="color: #000000; font-family: 'Gotham Bold', Arial, sans-serif; font-size: 16px; line-height: 20px; font-weight: bold; text-transform: uppercase;">&nbsp;</td>
+                                                                </tr>
+                                                </tbody></table>
+                                                
+                                            </td></tr></tbody>
+                                    </table>
+                                </td>
+                            </tr><tr>
+                                              <td height="49">&nbsp;</td>
+                                          </tr><tr>
+                                              <td style="font-size:1px; line-height:1px;color:#E7E7E7;" height="1"><hr></td>
+                                          </tr><tr>
+                                              <td height="49">&nbsp;</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:24px; line-height:32px; color:#262626;font-style:normal;font-weight:700;padding-bottom: 10px;">Where do you want to go?</td>
+                                          </tr>
+
+                                          <tr>
+                                            <td valign="top" class="full-width-img mobile-hide" align="center">
+                                                <a href="#" target="_blank">
+                                                <img src="https://cdn.discordapp.com/attachments/1016644352950419506/1016720386823565432/Search_box.png" width="624" border="0" style="width: 100%; max-width: 624px; display: block;"></a>
+                                            </td>
+                                        </tr>
+
+                                        <div style="mso-hide:all">
+                                        <tr>
+                                            <td valign="top" class="full-width-img search-box" align="center" style="display:none;">
+                                                <a href="#" target="_blank">
+                                                <img src="https://cdn.discordapp.com/attachments/1016644352950419506/1016810904022687804/Search_box.png" width="624" border="0" style="width: 100%; max-width: 624px; display: block;"></a>
+                                            </td>
+                                        </tr>
+                                    </div>
+
+
+                                        <tr>
+                                              <td height="56">&nbsp;</td>
+                                          </tr></tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                   <!-- GRAB A DEAL END -->
+                    <!--/ALL COMPONENTS END-->                
+                                                                                                                                                        
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </td>
+          </tr>
+      </tbody>
+  </table>
+
+<!-- EMAIL END -->
+
+  <table cellpadding="0" cellspacing="0" width="100%" style="min-width: 100%;" bgcolor="#F7F7F7">
+    <tbody>
+        <tr>
+            <td>
+
+                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper" align="center">
+                               
+
+                               <tbody>
+                                 <tr>
+                                   <td align="center" class="content-wrapper">
+
+                                <table width="624" border="0" cellspacing="0" cellpadding="0" class="content-wrapper-small" align="center">
+                                        <tbody>
+                                             <tr>
+                                                <td height="22" style="font-size:1px; line-height:1px;">&nbsp;</td>
+                                            </tr>
+                                          
+                                          <tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Display ,Arial, sans-serif; font-size:16px; line-height:24px; color:#383838;font-style:normal;font-weight:700;">Booking.com</td>
+                                          </tr>
+                                            <tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:16px; line-height:24px; color:#383838;font-style:normal;font-weight:400;">Herengracht 579, 1017 CE Amsterdam,</td>
+                                          </tr>
+                                          <tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:16px; line-height:24px; color:#383838;font-style:normal;font-weight:400;">Netherlands</td>
+                                          </tr>
+                                          <tr>
+                                              <td height="1">&nbsp;</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:14px; line-height:20px; color:#383838;font-style:normal;font-weight:400;text-decoration: underline">Unsubscribe</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:14px; line-height:20px; color:#383838;font-style:normal;font-weight:400;text-decoration: underline">Privacy Policy</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:14px; line-height:20px; color:#383838;font-style:normal;font-weight:400;text-decoration: underline">Contact Support</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:14px; line-height:20px; color:#383838;font-style:normal;font-weight:400;text-decoration: underline">Sign In</td>
+                                          </tr><tr>
+                                              <td height="30">&nbsp;</td>
+                                          </tr><tr>
+                                               <td class="body-text" align="left" style="font-family:SF Pro Text ,Arial, sans-serif; font-size:14px; line-height:20px; color:#383838;font-style:normal;font-weight:400;">Empowering you to experience the world.</td>
+                                          </tr><tr>
+                                              <td height="60">&nbsp;</td>
+                                          </tr></tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </td>
+        </tr>
+        
+    </tbody>
+</table>
+</body>
+</html>
